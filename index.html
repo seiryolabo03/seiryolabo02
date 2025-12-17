@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Android AR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    button {
+      font-size: 18px;
+      padding: 14px 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Android用 AR</h2>
+  <p>ボタンを押すとARが起動します</p>
+
+  <!-- Scene Viewer 起動 -->
+  <a
+    rel="ar"
+    href="House_001_GLB.glb?mode=ar_only"
+  >
+    <button>ARで表示</button>
+  </a>
+
+  <p style="margin-top:20px; font-size:14px;">
+    ※ Google Chrome 推奨<br>
+    ※ 起動後、床に置いて撮影してください
+  </p>
+</body>
+</html>
